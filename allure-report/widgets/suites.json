@@ -1,0 +1,92 @@
+{
+  "total" : 8,
+  "items" : [ {
+    "uid" : "9b6cc02aca33d447b04b444a21129dcb",
+    "name" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
+    "name" : "com.geekbrains.lesson3.DZ3.AccountTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "8b8b4400da8d0016991513bd3eab042a",
+    "name" : "com.geekbrains.lesson3.DZ3.ImageDeletionNegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "6f02a836d3065955493a45dd6113f2a1",
+    "name" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "ab5a5046bdddddd35dcd6183b0bd6120",
+    "name" : "com.geekbrains.lesson3.DZ3.FavoriteImageNegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "4dfa0076e7be840e3aa1c1348f1a71ac",
+    "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoNegativeTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f02c84af18b63c0bb65981acfced18bf",
+    "name" : "com.geekbrains.lesson3.DZ3.FavoriteImagePositiveTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1fed1de9532bfe8ca92e6903b5670f38",
+    "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoPositiveTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
