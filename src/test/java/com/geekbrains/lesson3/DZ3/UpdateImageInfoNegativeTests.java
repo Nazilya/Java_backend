@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.io.File;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 
 public class UpdateImageInfoNegativeTests extends BaseTest {
@@ -36,7 +37,8 @@ public class UpdateImageInfoNegativeTests extends BaseTest {
                 .post("https://api.imgur.com/3/image/0")
                 .prettyPeek()
                 .then()
-                .statusCode(400);
+                .statusCode(400)
+                .body("data.error", equalTo("No image data was sent to the upload api"));
     }
     @Test // некорректный token - Malformed auth header
     void UpdateImageInformationTokenInvalidNegativeTest() {
@@ -47,7 +49,8 @@ public class UpdateImageInfoNegativeTests extends BaseTest {
                 .post("https://api.imgur.com/3/image/{deleteHash}", uploadedImageId)
                 .prettyPeek()
                 .then()
-                .statusCode(403);
+                .statusCode(403)
+                .body("data.error", equalTo("Malformed auth header"));
     }
     @AfterEach
     void tearDown() {

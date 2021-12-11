@@ -23,8 +23,8 @@
       "total" : 4
     }
   }, {
-    "uid" : "8b8b4400da8d0016991513bd3eab042a",
-    "name" : "com.geekbrains.lesson3.DZ3.ImageDeletionNegativeTests",
+    "uid" : "6f02a836d3065955493a45dd6113f2a1",
+    "name" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "6f02a836d3065955493a45dd6113f2a1",
-    "name" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests",
+    "uid" : "8b8b4400da8d0016991513bd3eab042a",
+    "name" : "com.geekbrains.lesson3.DZ3.ImageDeletionNegativeTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

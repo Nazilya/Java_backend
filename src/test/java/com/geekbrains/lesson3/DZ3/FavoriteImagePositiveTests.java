@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 
 public class FavoriteImagePositiveTests extends BaseTest {
@@ -37,7 +38,8 @@ public class FavoriteImagePositiveTests extends BaseTest {
                 .post("https://api.imgur.com/3/image/{imageHash}/favorite", uploadedImageId)
                 .prettyPeek()
                 .then()
-                .statusCode(200);
+                .statusCode(200)
+                .body("success", equalTo(true));
     }
     @AfterEach
     void tearDown() {

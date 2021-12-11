@@ -1,0 +1,95 @@
+{
+  "uid" : "bb99436cd51d9551",
+  "name" : "uploadFileTest()",
+  "fullName" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests.uploadFileTest",
+  "historyId" : "e01b9ddbf51ba61bedfa11805383398c",
+  "time" : {
+    "start" : 1639247463690,
+    "stop" : 1639247473750,
+    "duration" : 10060
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "68bb757dcd45b2cd",
+      "name" : "Request",
+      "source" : "68bb757dcd45b2cd.html",
+      "type" : "text/html",
+      "size" : 481
+    }, {
+      "uid" : "fb758a52aeb35616",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "fb758a52aeb35616.html",
+      "type" : "text/html",
+      "size" : 2995
+    }, {
+      "uid" : "71e8fcd9868159f1",
+      "name" : "Request",
+      "source" : "71e8fcd9868159f1.html",
+      "type" : "text/html",
+      "size" : 449
+    }, {
+      "uid" : "438999420769d547",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "438999420769d547.html",
+      "type" : "text/html",
+      "size" : 1893
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests]/[method:uploadFileTest()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-37OPUFNO3M0"
+  }, {
+    "name" : "thread",
+    "value" : "10032@WIN-37OPUFNO3M0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadFileTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb99436cd51d9551.json",
+  "parameterValues" : [ ]
+}

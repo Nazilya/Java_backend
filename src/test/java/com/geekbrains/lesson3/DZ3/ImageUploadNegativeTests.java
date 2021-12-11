@@ -3,6 +3,8 @@ package com.geekbrains.lesson3.DZ3;
 import org.junit.jupiter.api.Test;
 import java.io.File;
 import static io.restassured.RestAssured.*;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ImageUploadNegativeTests extends BaseTest {
     private final String PATH_TO_IMAGE = "src/test/resources/reka.jpg";
@@ -18,6 +20,8 @@ public class ImageUploadNegativeTests extends BaseTest {
                 .multiPart("image", new File(PATH_TO_IMAGE))
                 .expect()
                 .statusCode(400)
+                .body("data.error", equalTo("An ID is required."))
+                .body("success", equalTo(false))
                 .when()
                 .delete("https://api.imgur.com/3/image")
                 .prettyPeek()
@@ -35,6 +39,8 @@ public class ImageUploadNegativeTests extends BaseTest {
                 .multiPart("image","\"/path/to/file\"")
                 .expect()
                 .statusCode(400)
+                .body("data.error", equalTo("Invalid URL (\"/path/to/file\")"))
+                .body("success", equalTo(false))
                 .when()
                 .post("https://api.imgur.com/3/image")
                 .prettyPeek()
@@ -51,6 +57,8 @@ public class ImageUploadNegativeTests extends BaseTest {
                 .multiPart("image", new File(PATH_TO_TXT))
                 .expect()
                 .statusCode(400)
+                .body("data.error.message", equalTo("File type invalid (1)"))
+                .body("data.error.type", equalTo("ImgurException"))
                 .when()
                 .post("https://api.imgur.com/3/image")
                 .prettyPeek()
@@ -58,7 +66,7 @@ public class ImageUploadNegativeTests extends BaseTest {
                 .extract()
                 .response()
                 .jsonPath()
-                .getString("data.deletehash");
+                .getString("data.error.message");
     }
     //загрузка изображения вместо видео
     @Test
@@ -68,6 +76,8 @@ public class ImageUploadNegativeTests extends BaseTest {
                 .multiPart("video", URL)
                 .expect()
                 .statusCode(400)
+                .body("data.error", equalTo("No image data was sent to the upload api"))
+                .body("success", equalTo(false))
                 .when()
                 .post("https://api.imgur.com/3/image")
                 .prettyPeek()

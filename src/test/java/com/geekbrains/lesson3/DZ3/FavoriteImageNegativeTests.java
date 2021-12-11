@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 
 public class FavoriteImageNegativeTests extends BaseTest {
@@ -37,7 +38,8 @@ public class FavoriteImageNegativeTests extends BaseTest {
                 .post("https://api.imgur.com/3/image/{imageHash}/favorite", 0)
                 .prettyPeek()
                 .then()
-                .statusCode(400);
+                .statusCode(400)
+                .body("data.error", equalTo("No image data was sent to the upload api"));
     }
     @Test //Некорректный url  -  404 Not Found
     void FavoriteImageInvalidURLNegativeTest() {

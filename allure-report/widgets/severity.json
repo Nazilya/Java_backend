@@ -1,210 +1,210 @@
 [ {
-  "uid" : "9d6b4cbef345df61",
-  "name" : "uploadNoFileImageNegativeTest()",
-  "time" : {
-    "start" : 1638989715523,
-    "stop" : 1638989717707,
-    "duration" : 2184
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f732be35d8bda2a",
-  "name" : "getAccountInfoWithLoggingTest()",
-  "time" : {
-    "start" : 1638989076095,
-    "stop" : 1638989077326,
-    "duration" : 1231
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "20d793b25055ee3",
-  "name" : "uploadFileImageTxtNegitiveTest()",
-  "time" : {
-    "start" : 1638989720898,
-    "stop" : 1638989722179,
-    "duration" : 1281
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bed7585210760078",
-  "name" : "ImageDeletionWrongMethodNegativeTest()",
-  "time" : {
-    "start" : 1638989610978,
-    "stop" : 1638989615242,
-    "duration" : 4264
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8981073ea4ac452d",
-  "name" : "FavoriteImagePositiveTest()",
-  "time" : {
-    "start" : 1638989284770,
-    "stop" : 1638989307100,
-    "duration" : 22330
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dc001a24925c61ea",
-  "name" : "getAccountInfoTest()",
-  "time" : {
-    "start" : 1638989074597,
-    "stop" : 1638989075983,
-    "duration" : 1386
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e898c2a11151c76",
-  "name" : "uploadFileTest()",
-  "time" : {
-    "start" : 1638989801475,
-    "stop" : 1638989823698,
-    "duration" : 22223
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c09655031387b41a",
-  "name" : "getAccountInfoWithAssertionsInGivenTest()",
-  "time" : {
-    "start" : 1638989039185,
-    "stop" : 1638989073825,
-    "duration" : 34640
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97c1f3b3a57cf953",
-  "name" : "uploadFileURLTest()",
-  "time" : {
-    "start" : 1638989828061,
-    "stop" : 1638989830844,
-    "duration" : 2783
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aa4074eae6a20353",
-  "name" : "uploadFileURLNegativeTest()",
-  "time" : {
-    "start" : 1638989686041,
-    "stop" : 1638989713870,
-    "duration" : 27829
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "105021e1b2266bda",
-  "name" : "FavoriteImageInvalidIdNegativeTest()",
-  "time" : {
-    "start" : 1638989179382,
-    "stop" : 1638989231413,
-    "duration" : 52031
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c5a263fb1796662",
+  "uid" : "69a2860b1aae6a1f",
   "name" : "UpdateImageInformationNegativeTest()",
   "time" : {
-    "start" : 1638989919024,
-    "stop" : 1638989923410,
-    "duration" : 4386
+    "start" : 1639247433730,
+    "stop" : 1639247437651,
+    "duration" : 3921
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bd37612d6d061bd",
-  "name" : "uploadFileImageNegativeTest()",
-  "time" : {
-    "start" : 1638989717809,
-    "stop" : 1638989719526,
-    "duration" : 1717
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9498dfebd26619be",
-  "name" : "UpdateImageInformationURLPositiveTest()",
-  "time" : {
-    "start" : 1638990525372,
-    "stop" : 1638990561994,
-    "duration" : 36622
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6eda5c7aff254aad",
-  "name" : "getAccountInfoWithAssertionsAfterTest()",
-  "time" : {
-    "start" : 1638989077457,
-    "stop" : 1638989078878,
-    "duration" : 1421
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5cceb1a48e02d446",
-  "name" : "uploadFileImageTest()",
-  "time" : {
-    "start" : 1638989824176,
-    "stop" : 1638989828004,
-    "duration" : 3828
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "650b9216cf82a056",
-  "name" : "ImageDeletionWrongUserNameNegativeqTest()",
-  "time" : {
-    "start" : 1638989571241,
-    "stop" : 1638989605428,
-    "duration" : 34187
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b91801c01c02260",
+  "uid" : "f3ad39730602877f",
   "name" : "UpdateImageInformationTokenInvalidNegativeTest()",
   "time" : {
-    "start" : 1638989890495,
-    "stop" : 1638989918428,
-    "duration" : 27933
+    "start" : 1639247423750,
+    "stop" : 1639247433564,
+    "duration" : 9814
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d77dc97c559fbf26",
-  "name" : "ImageDeletionWrongIdNegativeTest()",
+  "uid" : "d7186ad8464050c0",
+  "name" : "getAccountInfoWithLoggingTest()",
   "time" : {
-    "start" : 1638989606059,
-    "stop" : 1638989610907,
-    "duration" : 4848
+    "start" : 1639247208030,
+    "stop" : 1639247208867,
+    "duration" : 837
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bdebf3ccdada07ee",
+  "uid" : "d7c72fc56498d2a2",
   "name" : "FavoriteImageInvalidURLNegativeTest()",
   "time" : {
-    "start" : 1638989232299,
-    "stop" : 1638989237731,
-    "duration" : 5432
+    "start" : 1639247331636,
+    "stop" : 1639247335887,
+    "duration" : 4251
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "95457b4f5c090db0",
+  "uid" : "791e9185cb9f5044",
+  "name" : "getAccountInfoWithAssertionsAfterTest()",
+  "time" : {
+    "start" : 1639247208879,
+    "stop" : 1639247209748,
+    "duration" : 869
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1963f636fbae84a",
+  "name" : "UpdateImageInformationURLPositiveTest()",
+  "time" : {
+    "start" : 1639247365770,
+    "stop" : 1639247376229,
+    "duration" : 10459
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13ee050c98d7b309",
+  "name" : "uploadFileURLTest()",
+  "time" : {
+    "start" : 1639247477500,
+    "stop" : 1639247480569,
+    "duration" : 3069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40026608e5640e8b",
+  "name" : "getAccountInfoWithAssertionsInGivenTest()",
+  "time" : {
+    "start" : 1639247191128,
+    "stop" : 1639247206658,
+    "duration" : 15530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6750d476fac4e57a",
+  "name" : "ImageDeletionWrongMethodNegativeTest()",
+  "time" : {
+    "start" : 1639247557199,
+    "stop" : 1639247561039,
+    "duration" : 3840
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae2b02685bc3babb",
+  "name" : "uploadFileImageTxtNegitiveTest()",
+  "time" : {
+    "start" : 1639247516036,
+    "stop" : 1639247517108,
+    "duration" : 1072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0d04be5bdd09f41",
+  "name" : "ImageDeletionWrongIdNegativeTest()",
+  "time" : {
+    "start" : 1639247553082,
+    "stop" : 1639247557176,
+    "duration" : 4094
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57b0ece077d8555e",
+  "name" : "uploadFileImageNegativeTest()",
+  "time" : {
+    "start" : 1639247513836,
+    "stop" : 1639247515200,
+    "duration" : 1364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6b525419efcb72a",
+  "name" : "uploadNoFileImageNegativeTest()",
+  "time" : {
+    "start" : 1639247512652,
+    "stop" : 1639247513815,
+    "duration" : 1163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb99436cd51d9551",
+  "name" : "uploadFileTest()",
+  "time" : {
+    "start" : 1639247463690,
+    "stop" : 1639247473750,
+    "duration" : 10060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d391197d84d52e7",
   "name" : "uploadVideoURLNegativeTest()",
   "time" : {
-    "start" : 1638989719563,
-    "stop" : 1638989720810,
-    "duration" : 1247
+    "start" : 1639247515207,
+    "stop" : 1639247516025,
+    "duration" : 818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af6dda20748e961f",
+  "name" : "getAccountInfoTest()",
+  "time" : {
+    "start" : 1639247207168,
+    "stop" : 1639247207982,
+    "duration" : 814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "576ff5aada187d60",
+  "name" : "ImageDeletionWrongUserNameNegativeqTest()",
+  "time" : {
+    "start" : 1639247541334,
+    "stop" : 1639247552856,
+    "duration" : 11522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fa75078fc6dead8",
+  "name" : "FavoriteImageInvalidIdNegativeTest()",
+  "time" : {
+    "start" : 1639247320797,
+    "stop" : 1639247331470,
+    "duration" : 10673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2ed1c8a65a5563f",
+  "name" : "uploadFileImageTest()",
+  "time" : {
+    "start" : 1639247473909,
+    "stop" : 1639247477479,
+    "duration" : 3570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6369922f2cb2344",
+  "name" : "FavoriteImagePositiveTest()",
+  "time" : {
+    "start" : 1639247281181,
+    "stop" : 1639247295507,
+    "duration" : 14326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74e9c3e72ef80ad8",
+  "name" : "uploadFileURLNegativeTest()",
+  "time" : {
+    "start" : 1639247503916,
+    "stop" : 1639247512411,
+    "duration" : 8495
   },
   "status" : "passed",
   "severity" : "normal"

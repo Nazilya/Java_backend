@@ -1,0 +1,83 @@
+{
+  "uid" : "1d391197d84d52e7",
+  "name" : "uploadVideoURLNegativeTest()",
+  "fullName" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests.uploadVideoURLNegativeTest",
+  "historyId" : "72ae9ba4e3879013288d069a0cc5b0eb",
+  "time" : {
+    "start" : 1639247515207,
+    "stop" : 1639247516025,
+    "duration" : 818
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7315e7a649bba330",
+      "name" : "Request",
+      "source" : "7315e7a649bba330.html",
+      "type" : "text/html",
+      "size" : 481
+    }, {
+      "uid" : "aa4db378367423e7",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "aa4db378367423e7.html",
+      "type" : "text/html",
+      "size" : 1499
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests]/[method:uploadVideoURLNegativeTest()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-37OPUFNO3M0"
+  }, {
+    "name" : "thread",
+    "value" : "3188@WIN-37OPUFNO3M0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadVideoURLNegativeTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d391197d84d52e7.json",
+  "parameterValues" : [ ]
+}

@@ -10,6 +10,7 @@ import java.io.IOException;
 import java.util.Base64;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNull.notNullValue;
 
@@ -48,6 +49,7 @@ public class ImageUploadPositiveTests extends BaseTest {
                 .multiPart("image", new File("src/test/resources/sad.jpg"))
                 .expect()
                 .statusCode(200)
+                .body("data.type", equalTo("image/jpeg"))
                 .when()
                 .post("https://api.imgur.com/3/image")
                 .prettyPeek()
@@ -62,8 +64,10 @@ public class ImageUploadPositiveTests extends BaseTest {
         uploadedImageId = given()
                 .headers("Authorization", token)
                 .multiPart("image", URL)
+                .multiPart("title", "Sakura")
                 .expect()
                 .statusCode(200)
+                .body("data.title", equalTo("Sakura"))
                 .when()
                 .post("https://api.imgur.com/3/image")
                 .prettyPeek()

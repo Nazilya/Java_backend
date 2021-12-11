@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.equalTo;
 
 public class ImageDeletionNegativeTests extends BaseTest {
     String uploadedImageId;
@@ -37,7 +38,8 @@ public class ImageDeletionNegativeTests extends BaseTest {
                 .delete("https://api.imgur.com/3/account/{username}/image/0", "nazilya")
                 .prettyPeek()
                 .then()
-                .statusCode(200);
+                .statusCode(200)
+                .body("data.error", equalTo("An ID is required."));
     }
     @Test // замена delete методом post - Unknown Action
     void ImageDeletionWrongMethodNegativeTest() {
@@ -47,7 +49,8 @@ public class ImageDeletionNegativeTests extends BaseTest {
                 .post("https://api.imgur.com/3/account/{username}/image/{deletehash}", "nazilya", uploadedImageId)
                 .prettyPeek()
                 .then()
-                .statusCode(400);
+                .statusCode(400)
+                .body("data.error", equalTo("Unknown Action"));
     }
     @Test // некорректное имя пользователя - почему-то 404 Not Found
     void ImageDeletionWrongUserNameNegativeqTest() {
