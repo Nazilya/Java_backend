@@ -5,52 +5,52 @@
     "name" : "com.geekbrains.lesson3.DZ3.AccountTests",
     "children" : [ {
       "name" : "getAccountInfoWithAssertionsInGivenTest()",
-      "uid" : "370dc1fd91951b0c",
+      "uid" : "87d0535c00e8f0ed",
       "parentUid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
       "status" : "passed",
       "time" : {
-        "start" : 1639261830028,
-        "stop" : 1639261843734,
-        "duration" : 13706
+        "start" : 1639264235990,
+        "stop" : 1639264250986,
+        "duration" : 14996
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "getAccountInfoTest()",
-      "uid" : "882e3e4a8c955f43",
+      "uid" : "7afe31ebc63737e5",
       "parentUid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
       "status" : "passed",
       "time" : {
-        "start" : 1639261844156,
-        "stop" : 1639261845043,
-        "duration" : 887
+        "start" : 1639264251434,
+        "stop" : 1639264252298,
+        "duration" : 864
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "getAccountInfoWithLoggingTest()",
-      "uid" : "cfbef7fea7c95470",
+      "uid" : "cbe4002277ca660f",
       "parentUid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
       "status" : "passed",
       "time" : {
-        "start" : 1639261845091,
-        "stop" : 1639261845889,
-        "duration" : 798
+        "start" : 1639264252369,
+        "stop" : 1639264253397,
+        "duration" : 1028
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "getAccountInfoWithAssertionsAfterTest()",
-      "uid" : "cc5d754f3815eb8d",
+      "uid" : "82a7d9e09b728db3",
       "parentUid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
       "status" : "passed",
       "time" : {
-        "start" : 1639261845915,
-        "stop" : 1639261846830,
-        "duration" : 915
+        "start" : 1639264253413,
+        "stop" : 1639264254166,
+        "duration" : 753
       },
       "flaky" : false,
       "newFailed" : false,
@@ -61,39 +61,39 @@
     "name" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests",
     "children" : [ {
       "name" : "uploadFileTest()",
-      "uid" : "5b5132775b7e80de",
+      "uid" : "44f80dcda5ee2524",
       "parentUid" : "6f02a836d3065955493a45dd6113f2a1",
       "status" : "passed",
       "time" : {
-        "start" : 1639261902595,
-        "stop" : 1639261919801,
-        "duration" : 17206
+        "start" : 1639264304349,
+        "stop" : 1639264331008,
+        "duration" : 26659
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "uploadFileImageTest()",
-      "uid" : "bd86b59ee83df1ea",
+      "uid" : "76b18a5513ef08e4",
       "parentUid" : "6f02a836d3065955493a45dd6113f2a1",
       "status" : "passed",
       "time" : {
-        "start" : 1639261920904,
-        "stop" : 1639261924195,
-        "duration" : 3291
+        "start" : 1639264331443,
+        "stop" : 1639264335087,
+        "duration" : 3644
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "uploadFileURLTest()",
-      "uid" : "11ae2f32ed91c2cc",
+      "uid" : "cf05e4da6561da55",
       "parentUid" : "6f02a836d3065955493a45dd6113f2a1",
       "status" : "passed",
       "time" : {
-        "start" : 1639261924242,
-        "stop" : 1639261927563,
-        "duration" : 3321
+        "start" : 1639264335133,
+        "stop" : 1639264337898,
+        "duration" : 2765
       },
       "flaky" : false,
       "newFailed" : false,
@@ -104,65 +104,65 @@
     "name" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests",
     "children" : [ {
       "name" : "uploadFileURLNegativeTest()",
-      "uid" : "ba726f0e71623731",
+      "uid" : "4a1183de95082ec1",
       "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
       "status" : "passed",
       "time" : {
-        "start" : 1639262013508,
-        "stop" : 1639262028759,
-        "duration" : 15251
+        "start" : 1639264375618,
+        "stop" : 1639264392703,
+        "duration" : 17085
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "uploadNoFileImageNegativeTest()",
-      "uid" : "5e3268158cb1d66",
+      "uid" : "cd9f29dabadb5af",
       "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
       "status" : "passed",
       "time" : {
-        "start" : 1639262029179,
-        "stop" : 1639262030947,
-        "duration" : 1768
+        "start" : 1639264393131,
+        "stop" : 1639264394539,
+        "duration" : 1408
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "uploadFileImageNegativeTest()",
-      "uid" : "df06a1e5ff86d155",
+      "uid" : "ebcf992cf38d8726",
       "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
       "status" : "passed",
       "time" : {
-        "start" : 1639262031008,
-        "stop" : 1639262032484,
-        "duration" : 1476
+        "start" : 1639264394586,
+        "stop" : 1639264395943,
+        "duration" : 1357
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "uploadVideoURLNegativeTest()",
-      "uid" : "b588476b0c553334",
+      "uid" : "e0a45af64a375400",
       "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
       "status" : "passed",
       "time" : {
-        "start" : 1639262032504,
-        "stop" : 1639262033485,
-        "duration" : 981
+        "start" : 1639264395968,
+        "stop" : 1639264396993,
+        "duration" : 1025
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "uploadFileImageTxtNegitiveTest()",
-      "uid" : "4fd73939ee6b9a",
+      "uid" : "172e0fc1059c03b0",
       "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
       "status" : "passed",
       "time" : {
-        "start" : 1639262033510,
-        "stop" : 1639262034551,
-        "duration" : 1041
+        "start" : 1639264397011,
+        "stop" : 1639264397945,
+        "duration" : 934
       },
       "flaky" : false,
       "newFailed" : false,
@@ -173,39 +173,39 @@
     "name" : "com.geekbrains.lesson3.DZ3.ImageDeletionNegativeTests",
     "children" : [ {
       "name" : "ImageDeletionWrongUserNameNegativeqTest()",
-      "uid" : "b11aa97eea6a4e71",
+      "uid" : "11eaeec00849049a",
       "parentUid" : "8b8b4400da8d0016991513bd3eab042a",
       "status" : "passed",
       "time" : {
-        "start" : 1639262129081,
-        "stop" : 1639262158138,
-        "duration" : 29057
+        "start" : 1639264435965,
+        "stop" : 1639264455681,
+        "duration" : 19716
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "ImageDeletionWrongIdNegativeTest()",
-      "uid" : "fe45bd0aa7e22046",
+      "uid" : "e31bd9d0da95a4cb",
       "parentUid" : "8b8b4400da8d0016991513bd3eab042a",
       "status" : "passed",
       "time" : {
-        "start" : 1639262158955,
-        "stop" : 1639262164643,
-        "duration" : 5688
+        "start" : 1639264456134,
+        "stop" : 1639264459759,
+        "duration" : 3625
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "ImageDeletionWrongMethodNegativeTest()",
-      "uid" : "8ccec7ef224cba5b",
+      "uid" : "9aab6e97f920323e",
       "parentUid" : "8b8b4400da8d0016991513bd3eab042a",
       "status" : "passed",
       "time" : {
-        "start" : 1639262164740,
-        "stop" : 1639262169416,
-        "duration" : 4676
+        "start" : 1639264459810,
+        "stop" : 1639264463850,
+        "duration" : 4040
       },
       "flaky" : false,
       "newFailed" : false,
@@ -216,13 +216,13 @@
     "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoPositiveTests",
     "children" : [ {
       "name" : "UpdateImageInformationURLPositiveTest()",
-      "uid" : "739c5e49128806dc",
+      "uid" : "6b10c343a6b6df49",
       "parentUid" : "1fed1de9532bfe8ca92e6903b5670f38",
       "status" : "passed",
       "time" : {
-        "start" : 1639262217356,
-        "stop" : 1639262238101,
-        "duration" : 20745
+        "start" : 1639264503376,
+        "stop" : 1639264522835,
+        "duration" : 19459
       },
       "flaky" : false,
       "newFailed" : false,
@@ -233,26 +233,26 @@
     "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoNegativeTests",
     "children" : [ {
       "name" : "UpdateImageInformationTokenInvalidNegativeTest()",
-      "uid" : "cc8c0fc9184b8424",
+      "uid" : "816331286fc5fd3d",
       "parentUid" : "4dfa0076e7be840e3aa1c1348f1a71ac",
       "status" : "passed",
       "time" : {
-        "start" : 1639262329781,
-        "stop" : 1639262350843,
-        "duration" : 21062
+        "start" : 1639264559815,
+        "stop" : 1639264579569,
+        "duration" : 19754
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "UpdateImageInformationNegativeTest()",
-      "uid" : "ee671466afdb402a",
+      "uid" : "50a1f9b9549b49f9",
       "parentUid" : "4dfa0076e7be840e3aa1c1348f1a71ac",
       "status" : "passed",
       "time" : {
-        "start" : 1639262351471,
-        "stop" : 1639262356313,
-        "duration" : 4842
+        "start" : 1639264579946,
+        "stop" : 1639264583480,
+        "duration" : 3534
       },
       "flaky" : false,
       "newFailed" : false,
@@ -263,13 +263,13 @@
     "name" : "com.geekbrains.lesson3.DZ3.FavoriteImagePositiveTests",
     "children" : [ {
       "name" : "FavoriteImagePositiveTest()",
-      "uid" : "4dcd5960eee5e53e",
+      "uid" : "f420664715953194",
       "parentUid" : "f02c84af18b63c0bb65981acfced18bf",
       "status" : "passed",
       "time" : {
-        "start" : 1639262424948,
-        "stop" : 1639262449443,
-        "duration" : 24495
+        "start" : 1639264623329,
+        "stop" : 1639264642476,
+        "duration" : 19147
       },
       "flaky" : false,
       "newFailed" : false,
@@ -280,26 +280,26 @@
     "name" : "com.geekbrains.lesson3.DZ3.FavoriteImageNegativeTests",
     "children" : [ {
       "name" : "FavoriteImageInvalidIdNegativeTest()",
-      "uid" : "29004253048f0ecb",
+      "uid" : "937d376053065ffb",
       "parentUid" : "ab5a5046bdddddd35dcd6183b0bd6120",
       "status" : "passed",
       "time" : {
-        "start" : 1639262481817,
-        "stop" : 1639262505546,
-        "duration" : 23729
+        "start" : 1639264681484,
+        "stop" : 1639264702983,
+        "duration" : 21499
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "FavoriteImageInvalidURLNegativeTest()",
-      "uid" : "5448808b34691991",
+      "uid" : "a7a2b1b8df0fb4f9",
       "parentUid" : "ab5a5046bdddddd35dcd6183b0bd6120",
       "status" : "passed",
       "time" : {
-        "start" : 1639262505975,
-        "stop" : 1639262510585,
-        "duration" : 4610
+        "start" : 1639264703562,
+        "stop" : 1639264708274,
+        "duration" : 4712
       },
       "flaky" : false,
       "newFailed" : false,
