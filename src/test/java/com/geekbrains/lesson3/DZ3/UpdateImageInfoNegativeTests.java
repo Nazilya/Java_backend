@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.MatcherAssert.assertThat;
 
 
 public class UpdateImageInfoNegativeTests extends BaseTest {
@@ -18,7 +19,7 @@ public class UpdateImageInfoNegativeTests extends BaseTest {
                 .expect()
                 .statusCode(200)
                 .when()
-                .post("https://api.imgur.com/3/image")
+                .post(URL_UPLOAD)
                 .prettyPeek()
                 .then()
                 .extract()
@@ -26,25 +27,28 @@ public class UpdateImageInfoNegativeTests extends BaseTest {
                 .jsonPath()
                 .getString("data.deletehash");
     }
-    @Test // некорректный deletehash - No image data was sent to the upload api
+    @Test // некорректный deletehash
     void UpdateImageInformationNegativeTest() {
-        given()
+        error = given()
                 .headers("Authorization", token)
                 .multiPart("title", "Garden")
                 .when()
                 .post("https://api.imgur.com/3/image/0")
                 .prettyPeek()
                 .then()
-                .statusCode(400)
-                .body("data.error", equalTo("No image data was sent to the upload api"));
+                .extract()
+                .response()
+                .jsonPath()
+                .getString("data.error");
+        assertThat(error, equalTo("No image data was sent to the upload api"));
     }
-    @Test // некорректный token - Malformed auth header
+    @Test // некорректный token
     void UpdateImageInformationTokenInvalidNegativeTest() {
         given()
                 .headers("Authorization", 123)
                 .multiPart("title", "Garden")
                 .when()
-                .post("https://api.imgur.com/3/image/{deleteHash}", uploadedImageId)
+                .post(URL_UPDATE, uploadedImageId)
                 .prettyPeek()
                 .then()
                 .statusCode(403)
@@ -55,7 +59,7 @@ public class UpdateImageInfoNegativeTests extends BaseTest {
         given()
                 .headers("Authorization", token)
                 .when()
-                .delete("https://api.imgur.com/3/account/{username}/image/{deleteHash}", "nazilya", uploadedImageId)
+                .delete(URL_DELETE, "nazilya", uploadedImageId)
                 .prettyPeek()
                 .then()
                 .statusCode(200);

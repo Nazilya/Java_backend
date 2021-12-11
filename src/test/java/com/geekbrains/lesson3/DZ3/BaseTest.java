@@ -14,7 +14,12 @@ public abstract class BaseTest {
     static String token;
     static String username;
     String uploadedImageId;
+    String error;
     final String PATH_TO_IMAGE = "src/test/resources/reka.jpg";
+    final String URL_DELETE = "https://api.imgur.com/3/account/{username}/image/{deleteHash}";
+    final String URL_UPLOAD = "https://api.imgur.com/3/image";
+    final String URL_FAVORITE = "https://api.imgur.com/3/image/{imageHash}/favorite";
+    final String URL_UPDATE = "https://api.imgur.com/3/image/{deleteHash}";
 
     @BeforeAll
     static void BeforeAll() {

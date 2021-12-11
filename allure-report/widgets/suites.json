@@ -1,5 +1,5 @@
 {
-  "total" : 7,
+  "total" : 8,
   "items" : [ {
     "uid" : "9b6cc02aca33d447b04b444a21129dcb",
     "name" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests",
@@ -65,6 +65,17 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "1fed1de9532bfe8ca92e6903b5670f38",
+    "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoPositiveTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   }, {
     "uid" : "f02c84af18b63c0bb65981acfced18bf",

@@ -11,23 +11,24 @@ public class ImageUploadNegativeTests extends BaseTest {
     private final String PATH_TO_TXT = "src/test/resources/1.txt";
     String URL = "ttps://i.pinimg.com/originals/06/d2/c7/06d2c7e8e3ee8a12d1764ff2a52bdf4f.jpg";
 
+
     @Test//загрузка изображения методом delete
     void uploadFileImageNegativeTest() {
-        uploadedImageId = given()
+         error = given()
                 .headers("Authorization", token)
                 .multiPart("image", new File(PATH_TO_IMAGE))
                 .expect()
                 .statusCode(400)
-                .body("data.error", equalTo("An ID is required."))
                 .body("success", equalTo(false))
                 .when()
-                .delete("https://api.imgur.com/3/image")
+                .delete(URL_UPLOAD)
                 .prettyPeek()
                 .then()
                 .extract()
                 .response()
                 .jsonPath()
-                .getString("data.deletehash");
+                .getString("data.error");
+        assertThat(error, equalTo("An ID is required."));
     }
 
     @Test//загрузка изображения - не указан путь к файлу
@@ -40,7 +41,7 @@ public class ImageUploadNegativeTests extends BaseTest {
                 .body("data.error", equalTo("Invalid URL (\"/path/to/file\")"))
                 .body("success", equalTo(false))
                 .when()
-                .post("https://api.imgur.com/3/image")
+                .post(URL_UPLOAD)
                 .prettyPeek()
                 .then()
                 .extract()
@@ -54,28 +55,28 @@ public class ImageUploadNegativeTests extends BaseTest {
                 .headers("Authorization", token)
                 .multiPart("image", new File(PATH_TO_TXT))
                 .when()
-                .post("https://api.imgur.com/3/image")
+                .post(URL_UPLOAD)
                 .prettyPeek();
         assertThat(response.jsonPath().getString("data.error.message"), equalTo("File type invalid (1)"));
     }
     //загрузка изображения вместо видео
     @Test
     void uploadVideoURLNegativeTest() {
-        uploadedImageId = given()
+        error = given()
                 .headers("Authorization", token)
                 .multiPart("video", URL)
                 .expect()
                 .statusCode(400)
-                .body("data.error", equalTo("No image data was sent to the upload api"))
                 .body("success", equalTo(false))
                 .when()
-                .post("https://api.imgur.com/3/image")
+                .post(URL_UPLOAD)
                 .prettyPeek()
                 .then()
                 .extract()
                 .response()
                 .jsonPath()
                 .getString("data.error");
+        assertThat(error, equalTo("No image data was sent to the upload api"));
     }
 
     //загрузка изображения (ошибка в URL)
@@ -87,12 +88,12 @@ public class ImageUploadNegativeTests extends BaseTest {
                 .expect()
                 .statusCode(400)
                 .when()
-                .post("https://api.imgur.com/3/image")
+                .post(URL_UPLOAD)
                 .prettyPeek()
                 .then()
                 .extract()
                 .response()
                 .jsonPath()
-                .getString("data.error");
+                .getString("data.deletehash");
     }
 }
