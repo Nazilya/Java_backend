@@ -10,13 +10,12 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class ImageDeletionNegativeTests extends BaseTest {
-    String uploadedImageId;
 
     @BeforeEach
     void setUp() {
         uploadedImageId = given()
                 .headers("Authorization", token)
-                .multiPart("image", new File("src/test/resources/sad.jpg"))
+                .multiPart("image", new File(PATH_TO_IMAGE))
                 .multiPart("title", "Sad")
                 .expect()
                 .statusCode(200)

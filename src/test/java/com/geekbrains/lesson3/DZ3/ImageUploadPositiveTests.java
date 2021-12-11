@@ -15,9 +15,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.core.IsNull.notNullValue;
 
 public class ImageUploadPositiveTests extends BaseTest {
-    private final String PATH_TO_IMAGE = "src/test/resources/reka.jpg";
     static String encodedFile;
-    String uploadedImageId;
     String URL = "https://i.pinimg.com/originals/06/d2/c7/06d2c7e8e3ee8a12d1764ff2a52bdf4f.jpg";
 
     @BeforeEach
@@ -46,7 +44,7 @@ public class ImageUploadPositiveTests extends BaseTest {
     void uploadFileImageTest() {
         uploadedImageId = given()
                 .headers("Authorization", token)
-                .multiPart("image", new File("src/test/resources/sad.jpg"))
+                .multiPart("image", new File(PATH_TO_IMAGE))
                 .expect()
                 .statusCode(200)
                 .body("data.type", equalTo("image/jpeg"))

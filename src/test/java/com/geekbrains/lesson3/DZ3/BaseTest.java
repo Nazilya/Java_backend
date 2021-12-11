@@ -13,6 +13,8 @@ public abstract class BaseTest {
     static Properties properties = new Properties();
     static String token;
     static String username;
+    String uploadedImageId;
+    final String PATH_TO_IMAGE = "src/test/resources/reka.jpg";
 
     @BeforeAll
     static void BeforeAll() {

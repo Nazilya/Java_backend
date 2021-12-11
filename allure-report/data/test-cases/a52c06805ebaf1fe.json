@@ -1,0 +1,83 @@
+{
+  "uid" : "a52c06805ebaf1fe",
+  "name" : "getAccountInfoWithAssertionsInGivenTest()",
+  "fullName" : "com.geekbrains.lesson3.DZ3.AccountTests.getAccountInfoWithAssertionsInGivenTest",
+  "historyId" : "e0723cbb130659be2b255cb460e32059",
+  "time" : {
+    "start" : 1639253190924,
+    "stop" : 1639253203446,
+    "duration" : 12522
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4719b742fc49eb9",
+      "name" : "Request",
+      "source" : "f4719b742fc49eb9.html",
+      "type" : "text/html",
+      "size" : 399
+    }, {
+      "uid" : "a0ba3c12ca8fdf78",
+      "name" : "HTTP/1.1 200 OK",
+      "source" : "a0ba3c12ca8fdf78.html",
+      "type" : "text/html",
+      "size" : 2607
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.geekbrains.lesson3.DZ3.AccountTests]/[method:getAccountInfoWithAssertionsInGivenTest()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-37OPUFNO3M0"
+  }, {
+    "name" : "thread",
+    "value" : "7160@WIN-37OPUFNO3M0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.geekbrains.lesson3.DZ3.AccountTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.geekbrains.lesson3.DZ3.AccountTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "getAccountInfoWithAssertionsInGivenTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.geekbrains.lesson3.DZ3.AccountTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a52c06805ebaf1fe.json",
+  "parameterValues" : [ ]
+}
