@@ -16,7 +16,6 @@ import static org.hamcrest.core.IsNull.notNullValue;
 
 public class ImageUploadPositiveTests extends BaseTest {
     static String encodedFile;
-    String URL = "https://i.pinimg.com/originals/06/d2/c7/06d2c7e8e3ee8a12d1764ff2a52bdf4f.jpg";
 
     @BeforeEach
     void beforeTest() {

@@ -9,8 +9,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ImageUploadNegativeTests extends BaseTest {
     private final String PATH_TO_TXT = "src/test/resources/1.txt";
-    String URL = "ttps://i.pinimg.com/originals/06/d2/c7/06d2c7e8e3ee8a12d1764ff2a52bdf4f.jpg";
-
+    String URL_INVALID = "ttps://i.pinimg.com/originals/06/d2/c7/06d2c7e8e3ee8a12d1764ff2a52bdf4f.jpg";
 
     @Test//загрузка изображения методом delete
     void uploadFileImageNegativeTest() {
@@ -84,9 +83,10 @@ public class ImageUploadNegativeTests extends BaseTest {
     void uploadFileURLNegativeTest() {
         uploadedImageId = given()
                 .headers("Authorization", token)
-                .multiPart("image", URL)
+                .multiPart("image", URL_INVALID)
                 .expect()
                 .statusCode(400)
+                .body("data.error", equalTo("Unable to process upload!"))
                 .when()
                 .post(URL_UPLOAD)
                 .prettyPeek()

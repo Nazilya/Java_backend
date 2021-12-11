@@ -20,6 +20,7 @@ public abstract class BaseTest {
     final String URL_UPLOAD = "https://api.imgur.com/3/image";
     final String URL_FAVORITE = "https://api.imgur.com/3/image/{imageHash}/favorite";
     final String URL_UPDATE = "https://api.imgur.com/3/image/{deleteHash}";
+    String URL = "https://i.pinimg.com/originals/06/d2/c7/06d2c7e8e3ee8a12d1764ff2a52bdf4f.jpg";
 
     @BeforeAll
     static void BeforeAll() {
