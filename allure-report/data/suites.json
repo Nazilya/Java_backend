@@ -2,309 +2,279 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "com.geekbrains.lesson3.DZ3.AccountTests",
+    "name" : "com.geekbrains.lesson4.DZ4.AccountTests",
     "children" : [ {
       "name" : "getAccountInfoWithAssertionsInGivenTest()",
-      "uid" : "87d0535c00e8f0ed",
-      "parentUid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
+      "uid" : "e252dec1fce944ad",
+      "parentUid" : "69b04505fc5bd01b80a65ea861bbdb28",
       "status" : "passed",
       "time" : {
-        "start" : 1639264235990,
-        "stop" : 1639264250986,
-        "duration" : 14996
+        "start" : 1639347209910,
+        "stop" : 1639347225139,
+        "duration" : 15229
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "getAccountInfoTest()",
-      "uid" : "7afe31ebc63737e5",
-      "parentUid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
+      "uid" : "c7b57aed6c9c77d5",
+      "parentUid" : "69b04505fc5bd01b80a65ea861bbdb28",
       "status" : "passed",
       "time" : {
-        "start" : 1639264251434,
-        "stop" : 1639264252298,
-        "duration" : 864
+        "start" : 1639347225635,
+        "stop" : 1639347226622,
+        "duration" : 987
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "getAccountInfoWithLoggingTest()",
-      "uid" : "cbe4002277ca660f",
-      "parentUid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
+      "uid" : "6036c161b972f252",
+      "parentUid" : "69b04505fc5bd01b80a65ea861bbdb28",
       "status" : "passed",
       "time" : {
-        "start" : 1639264252369,
-        "stop" : 1639264253397,
-        "duration" : 1028
+        "start" : 1639347226677,
+        "stop" : 1639347227718,
+        "duration" : 1041
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "getAccountInfoWithAssertionsAfterTest()",
-      "uid" : "82a7d9e09b728db3",
-      "parentUid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
+      "uid" : "d03bb37e01fc34b5",
+      "parentUid" : "69b04505fc5bd01b80a65ea861bbdb28",
       "status" : "passed",
       "time" : {
-        "start" : 1639264253413,
-        "stop" : 1639264254166,
-        "duration" : 753
+        "start" : 1639347227735,
+        "stop" : 1639347229319,
+        "duration" : 1584
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "c47bd49f6c8b4bce5a7b10009961cdeb"
+    "uid" : "69b04505fc5bd01b80a65ea861bbdb28"
   }, {
-    "name" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests",
+    "name" : "com.geekbrains.lesson4.DZ4.FavoriteImagePositiveTests",
     "children" : [ {
-      "name" : "uploadFileTest()",
-      "uid" : "44f80dcda5ee2524",
-      "parentUid" : "6f02a836d3065955493a45dd6113f2a1",
+      "name" : "FavoriteImagePositiveTest()",
+      "uid" : "94ed58fe7751f5fa",
+      "parentUid" : "bf453b5b7178f66753d2aa5f3489a013",
       "status" : "passed",
       "time" : {
-        "start" : 1639264304349,
-        "stop" : 1639264331008,
-        "duration" : 26659
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "uploadFileImageTest()",
-      "uid" : "76b18a5513ef08e4",
-      "parentUid" : "6f02a836d3065955493a45dd6113f2a1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639264331443,
-        "stop" : 1639264335087,
-        "duration" : 3644
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "uploadFileURLTest()",
-      "uid" : "cf05e4da6561da55",
-      "parentUid" : "6f02a836d3065955493a45dd6113f2a1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639264335133,
-        "stop" : 1639264337898,
-        "duration" : 2765
+        "start" : 1639347286649,
+        "stop" : 1639347312863,
+        "duration" : 26214
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "6f02a836d3065955493a45dd6113f2a1"
+    "uid" : "bf453b5b7178f66753d2aa5f3489a013"
   }, {
-    "name" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests",
+    "name" : "com.geekbrains.lesson4.DZ4.FavoriteImageNegativeTests",
     "children" : [ {
-      "name" : "uploadFileURLNegativeTest()",
-      "uid" : "4a1183de95082ec1",
-      "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
+      "name" : "Некорректный id",
+      "uid" : "d8bea75784a34e7f",
+      "parentUid" : "48ab01025e87e37540ae0a0ef595d512",
       "status" : "passed",
       "time" : {
-        "start" : 1639264375618,
-        "stop" : 1639264392703,
-        "duration" : 17085
+        "start" : 1639347393695,
+        "stop" : 1639347416478,
+        "duration" : 22783
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "uploadNoFileImageNegativeTest()",
-      "uid" : "cd9f29dabadb5af",
-      "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
+      "name" : "Некорректный url",
+      "uid" : "e8a2611c102caafb",
+      "parentUid" : "48ab01025e87e37540ae0a0ef595d512",
       "status" : "passed",
       "time" : {
-        "start" : 1639264393131,
-        "stop" : 1639264394539,
-        "duration" : 1408
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "uploadFileImageNegativeTest()",
-      "uid" : "ebcf992cf38d8726",
-      "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639264394586,
-        "stop" : 1639264395943,
-        "duration" : 1357
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "uploadVideoURLNegativeTest()",
-      "uid" : "e0a45af64a375400",
-      "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639264395968,
-        "stop" : 1639264396993,
-        "duration" : 1025
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "uploadFileImageTxtNegitiveTest()",
-      "uid" : "172e0fc1059c03b0",
-      "parentUid" : "9b6cc02aca33d447b04b444a21129dcb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639264397011,
-        "stop" : 1639264397945,
-        "duration" : 934
+        "start" : 1639347417032,
+        "stop" : 1639347422762,
+        "duration" : 5730
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "9b6cc02aca33d447b04b444a21129dcb"
+    "uid" : "48ab01025e87e37540ae0a0ef595d512"
   }, {
-    "name" : "com.geekbrains.lesson3.DZ3.ImageDeletionNegativeTests",
+    "name" : "com.geekbrains.lesson4.DZ4.ImageDeletionNegativeTests",
     "children" : [ {
       "name" : "ImageDeletionWrongUserNameNegativeqTest()",
-      "uid" : "11eaeec00849049a",
-      "parentUid" : "8b8b4400da8d0016991513bd3eab042a",
+      "uid" : "9d7d64c9ac152b79",
+      "parentUid" : "185f83ad43d60442fd3096070605d32a",
       "status" : "passed",
       "time" : {
-        "start" : 1639264435965,
-        "stop" : 1639264455681,
-        "duration" : 19716
+        "start" : 1639347466440,
+        "stop" : 1639347491717,
+        "duration" : 25277
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "ImageDeletionWrongIdNegativeTest()",
-      "uid" : "e31bd9d0da95a4cb",
-      "parentUid" : "8b8b4400da8d0016991513bd3eab042a",
+      "uid" : "bcaf29a878e6a904",
+      "parentUid" : "185f83ad43d60442fd3096070605d32a",
       "status" : "passed",
       "time" : {
-        "start" : 1639264456134,
-        "stop" : 1639264459759,
-        "duration" : 3625
+        "start" : 1639347492323,
+        "stop" : 1639347497302,
+        "duration" : 4979
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "ImageDeletionWrongMethodNegativeTest()",
-      "uid" : "9aab6e97f920323e",
-      "parentUid" : "8b8b4400da8d0016991513bd3eab042a",
+      "uid" : "5a7ed16ab15fbdc9",
+      "parentUid" : "185f83ad43d60442fd3096070605d32a",
       "status" : "passed",
       "time" : {
-        "start" : 1639264459810,
-        "stop" : 1639264463850,
-        "duration" : 4040
+        "start" : 1639347497358,
+        "stop" : 1639347504185,
+        "duration" : 6827
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "8b8b4400da8d0016991513bd3eab042a"
+    "uid" : "185f83ad43d60442fd3096070605d32a"
   }, {
-    "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoPositiveTests",
+    "name" : "com.geekbrains.lesson4.DZ4.ImageUploadPositiveTests",
     "children" : [ {
-      "name" : "UpdateImageInformationURLPositiveTest()",
-      "uid" : "6b10c343a6b6df49",
-      "parentUid" : "1fed1de9532bfe8ca92e6903b5670f38",
+      "name" : "Загрузка изображения, закодированного Base64",
+      "uid" : "23b933a0292ddddc",
+      "parentUid" : "256a0e8ec8a3d55086fd390d2404d6ec",
       "status" : "passed",
       "time" : {
-        "start" : 1639264503376,
-        "stop" : 1639264522835,
-        "duration" : 19459
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "1fed1de9532bfe8ca92e6903b5670f38"
-  }, {
-    "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoNegativeTests",
-    "children" : [ {
-      "name" : "UpdateImageInformationTokenInvalidNegativeTest()",
-      "uid" : "816331286fc5fd3d",
-      "parentUid" : "4dfa0076e7be840e3aa1c1348f1a71ac",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639264559815,
-        "stop" : 1639264579569,
-        "duration" : 19754
+        "start" : 1639347551275,
+        "stop" : 1639347572874,
+        "duration" : 21599
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "UpdateImageInformationNegativeTest()",
-      "uid" : "50a1f9b9549b49f9",
-      "parentUid" : "4dfa0076e7be840e3aa1c1348f1a71ac",
+      "name" : "Загрузка изображения с resources",
+      "uid" : "d09566e8c4451d3f",
+      "parentUid" : "256a0e8ec8a3d55086fd390d2404d6ec",
       "status" : "passed",
       "time" : {
-        "start" : 1639264579946,
-        "stop" : 1639264583480,
-        "duration" : 3534
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "4dfa0076e7be840e3aa1c1348f1a71ac"
-  }, {
-    "name" : "com.geekbrains.lesson3.DZ3.FavoriteImagePositiveTests",
-    "children" : [ {
-      "name" : "FavoriteImagePositiveTest()",
-      "uid" : "f420664715953194",
-      "parentUid" : "f02c84af18b63c0bb65981acfced18bf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639264623329,
-        "stop" : 1639264642476,
-        "duration" : 19147
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    } ],
-    "uid" : "f02c84af18b63c0bb65981acfced18bf"
-  }, {
-    "name" : "com.geekbrains.lesson3.DZ3.FavoriteImageNegativeTests",
-    "children" : [ {
-      "name" : "FavoriteImageInvalidIdNegativeTest()",
-      "uid" : "937d376053065ffb",
-      "parentUid" : "ab5a5046bdddddd35dcd6183b0bd6120",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639264681484,
-        "stop" : 1639264702983,
-        "duration" : 21499
+        "start" : 1639347573470,
+        "stop" : 1639347578211,
+        "duration" : 4741
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "FavoriteImageInvalidURLNegativeTest()",
-      "uid" : "a7a2b1b8df0fb4f9",
-      "parentUid" : "ab5a5046bdddddd35dcd6183b0bd6120",
+      "name" : "Загрузка изображения с URL",
+      "uid" : "c5236e7da7f39ed8",
+      "parentUid" : "256a0e8ec8a3d55086fd390d2404d6ec",
       "status" : "passed",
       "time" : {
-        "start" : 1639264703562,
-        "stop" : 1639264708274,
-        "duration" : 4712
+        "start" : 1639347578264,
+        "stop" : 1639347581780,
+        "duration" : 3516
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "ab5a5046bdddddd35dcd6183b0bd6120"
+    "uid" : "256a0e8ec8a3d55086fd390d2404d6ec"
+  }, {
+    "name" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests",
+    "children" : [ {
+      "name" : "uploadFileURLNegativeTest()",
+      "uid" : "bcabb5b72e07d13",
+      "parentUid" : "0ddfd45ec2dc9c60b5042a61273d9b8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639348062428,
+        "stop" : 1639348077376,
+        "duration" : 14948
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Загрузка изображения. Не указан путь к файлу",
+      "uid" : "bba902474d059ef6",
+      "parentUid" : "0ddfd45ec2dc9c60b5042a61273d9b8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639348078027,
+        "stop" : 1639348079524,
+        "duration" : 1497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Загрузка изображения методом delete",
+      "uid" : "de6a46d81d455085",
+      "parentUid" : "0ddfd45ec2dc9c60b5042a61273d9b8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639348079597,
+        "stop" : 1639348081467,
+        "duration" : 1870
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Загрузка изображения вместо видео",
+      "uid" : "774699d2c4420ab5",
+      "parentUid" : "0ddfd45ec2dc9c60b5042a61273d9b8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639348081494,
+        "stop" : 1639348082717,
+        "duration" : 1223
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Загрузка изображения. Файл txt",
+      "uid" : "f7698d0b3f6a0ab8",
+      "parentUid" : "0ddfd45ec2dc9c60b5042a61273d9b8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639348082867,
+        "stop" : 1639348084094,
+        "duration" : 1227
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0ddfd45ec2dc9c60b5042a61273d9b8e"
+  }, {
+    "name" : "com.geekbrains.lesson4.DZ4.UpdateImageInfoPositiveTests",
+    "children" : [ {
+      "name" : "Изменения title",
+      "uid" : "dbd54944d2b04fbe",
+      "parentUid" : "086eb0a8ad1b5826ceb9c5f6a063ce3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639348122067,
+        "stop" : 1639348149820,
+        "duration" : 27753
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "086eb0a8ad1b5826ceb9c5f6a063ce3c"
   } ]
 }

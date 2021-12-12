@@ -1,0 +1,110 @@
+{
+  "uid" : "bba902474d059ef6",
+  "name" : "Загрузка изображения. Не указан путь к файлу",
+  "fullName" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests.uploadNoFileImageNegativeTest",
+  "historyId" : "cd4bc575865ed0e2d9de98a45b663082",
+  "time" : {
+    "start" : 1639348078027,
+    "stop" : 1639348079524,
+    "duration" : 1497
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce2324deecde7798",
+      "name" : "Request",
+      "source" : "ce2324deecde7798.html",
+      "type" : "text/html",
+      "size" : 481
+    }, {
+      "uid" : "fe95b563dc805fbe",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "fe95b563dc805fbe.html",
+      "type" : "text/html",
+      "size" : 1500
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests]/[method:uploadNoFileImageNegativeTest()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-37OPUFNO3M0"
+  }, {
+    "name" : "thread",
+    "value" : "10692@WIN-37OPUFNO3M0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadNoFileImageNegativeTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a4e37c3df62e9f7",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <500> but was <400>.\n",
+      "time" : {
+        "start" : 1639347981267,
+        "stop" : 1639347983199,
+        "duration" : 1932
+      }
+    }, {
+      "uid" : "b6989cf4aec36d35",
+      "status" : "failed",
+      "statusDetails" : "2 expectations failed.\nExpected status code <500> but was <400>.\n\nJSON path data.error doesn't match.\nExpected: Failed to connect to the DB\n  Actual: Invalid URL (src/test/resources/sad1.jpg)\n",
+      "time" : {
+        "start" : 1639347889268,
+        "stop" : 1639347908066,
+        "duration" : 18798
+      }
+    }, {
+      "uid" : "b189cb990afb91d1",
+      "status" : "failed",
+      "statusDetails" : "2 expectations failed.\nExpected status code <400> but was <500>.\n\nJSON path data.error doesn't match.\nExpected: Invalid URL (src/test/resources/sad1.jpg)\n  Actual: Failed to connect to the DB\n",
+      "time" : {
+        "start" : 1639347692151,
+        "stop" : 1639347694234,
+        "duration" : 2083
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bba902474d059ef6.json",
+  "parameterValues" : [ ]
+}

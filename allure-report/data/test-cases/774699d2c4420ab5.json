@@ -1,0 +1,100 @@
+{
+  "uid" : "774699d2c4420ab5",
+  "name" : "Загрузка изображения вместо видео",
+  "fullName" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests.uploadVideoURLNegativeTest",
+  "historyId" : "3707a94ad128550662f7cc9d65af9e39",
+  "time" : {
+    "start" : 1639348081494,
+    "stop" : 1639348082717,
+    "duration" : 1223
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d4e27c16e129414f",
+      "name" : "Request",
+      "source" : "d4e27c16e129414f.html",
+      "type" : "text/html",
+      "size" : 481
+    }, {
+      "uid" : "2f0185f96e03b23d",
+      "name" : "HTTP/1.1 400 Bad Request",
+      "source" : "2f0185f96e03b23d.html",
+      "type" : "text/html",
+      "size" : 1499
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests]/[method:uploadVideoURLNegativeTest()]"
+  }, {
+    "name" : "host",
+    "value" : "WIN-37OPUFNO3M0"
+  }, {
+    "name" : "thread",
+    "value" : "10692@WIN-37OPUFNO3M0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "uploadVideoURLNegativeTest"
+  }, {
+    "name" : "suite",
+    "value" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5d5f2812f8acf0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639347985448,
+        "stop" : 1639347986922,
+        "duration" : 1474
+      }
+    }, {
+      "uid" : "8fc7c86dd876db11",
+      "status" : "failed",
+      "statusDetails" : "1 expectation failed.\nExpected status code <400> but was <500>.\n",
+      "time" : {
+        "start" : 1639347697037,
+        "stop" : 1639347698119,
+        "duration" : 1082
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "774699d2c4420ab5.json",
+  "parameterValues" : [ ]
+}
