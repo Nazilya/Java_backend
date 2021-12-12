@@ -1,8 +1,8 @@
 {
-  "total" : 8,
+  "total" : 7,
   "items" : [ {
-    "uid" : "9b6cc02aca33d447b04b444a21129dcb",
-    "name" : "com.geekbrains.lesson3.DZ3.ImageUploadNegativeTests",
+    "uid" : "0ddfd45ec2dc9c60b5042a61273d9b8e",
+    "name" : "com.geekbrains.lesson4.DZ4.ImageUploadNegativeTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -12,8 +12,8 @@
       "total" : 5
     }
   }, {
-    "uid" : "c47bd49f6c8b4bce5a7b10009961cdeb",
-    "name" : "com.geekbrains.lesson3.DZ3.AccountTests",
+    "uid" : "69b04505fc5bd01b80a65ea861bbdb28",
+    "name" : "com.geekbrains.lesson4.DZ4.AccountTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,8 +23,8 @@
       "total" : 4
     }
   }, {
-    "uid" : "6f02a836d3065955493a45dd6113f2a1",
-    "name" : "com.geekbrains.lesson3.DZ3.ImageUploadPositiveTests",
+    "uid" : "185f83ad43d60442fd3096070605d32a",
+    "name" : "com.geekbrains.lesson4.DZ4.ImageDeletionNegativeTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -34,8 +34,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "8b8b4400da8d0016991513bd3eab042a",
-    "name" : "com.geekbrains.lesson3.DZ3.ImageDeletionNegativeTests",
+    "uid" : "256a0e8ec8a3d55086fd390d2404d6ec",
+    "name" : "com.geekbrains.lesson4.DZ4.ImageUploadPositiveTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -45,8 +45,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "4dfa0076e7be840e3aa1c1348f1a71ac",
-    "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoNegativeTests",
+    "uid" : "48ab01025e87e37540ae0a0ef595d512",
+    "name" : "com.geekbrains.lesson4.DZ4.FavoriteImageNegativeTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -56,19 +56,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "ab5a5046bdddddd35dcd6183b0bd6120",
-    "name" : "com.geekbrains.lesson3.DZ3.FavoriteImageNegativeTests",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "1fed1de9532bfe8ca92e6903b5670f38",
-    "name" : "com.geekbrains.lesson3.DZ3.UpdateImageInfoPositiveTests",
+    "uid" : "bf453b5b7178f66753d2aa5f3489a013",
+    "name" : "com.geekbrains.lesson4.DZ4.FavoriteImagePositiveTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -78,8 +67,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "f02c84af18b63c0bb65981acfced18bf",
-    "name" : "com.geekbrains.lesson3.DZ3.FavoriteImagePositiveTests",
+    "uid" : "086eb0a8ad1b5826ceb9c5f6a063ce3c",
+    "name" : "com.geekbrains.lesson4.DZ4.UpdateImageInfoPositiveTests",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

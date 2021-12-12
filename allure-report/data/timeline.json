@@ -4,310 +4,435 @@
   "children" : [ {
     "name" : "WIN-37OPUFNO3M0",
     "children" : [ {
-      "name" : "6268@WIN-37OPUFNO3M0.main(1)",
+      "name" : "10692@WIN-37OPUFNO3M0.main(1)",
       "children" : [ {
-        "name" : "FavoriteImagePositiveTest()",
-        "uid" : "f420664715953194",
-        "parentUid" : "a9f7fc45bb773aeb4ad0eea328420687",
+        "name" : "Загрузка изображения. Файл txt",
+        "uid" : "f7698d0b3f6a0ab8",
+        "parentUid" : "8381b9d3d511247c33c61cd1e99bde54",
         "status" : "passed",
         "time" : {
-          "start" : 1639264623329,
-          "stop" : 1639264642476,
-          "duration" : 19147
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a9f7fc45bb773aeb4ad0eea328420687"
-    }, {
-      "name" : "3724@WIN-37OPUFNO3M0.main(1)",
-      "children" : [ {
-        "name" : "getAccountInfoWithAssertionsInGivenTest()",
-        "uid" : "87d0535c00e8f0ed",
-        "parentUid" : "cbd055e1c6fa320494331983215720cb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264235990,
-          "stop" : 1639264250986,
-          "duration" : 14996
+          "start" : 1639348082867,
+          "stop" : 1639348084094,
+          "duration" : 1227
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "getAccountInfoTest()",
-        "uid" : "7afe31ebc63737e5",
-        "parentUid" : "cbd055e1c6fa320494331983215720cb",
+        "name" : "Загрузка изображения методом delete",
+        "uid" : "de6a46d81d455085",
+        "parentUid" : "8381b9d3d511247c33c61cd1e99bde54",
         "status" : "passed",
         "time" : {
-          "start" : 1639264251434,
-          "stop" : 1639264252298,
-          "duration" : 864
+          "start" : 1639348079597,
+          "stop" : 1639348081467,
+          "duration" : 1870
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "uploadFileURLNegativeTest()",
+        "uid" : "bcabb5b72e07d13",
+        "parentUid" : "8381b9d3d511247c33c61cd1e99bde54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639348062428,
+          "stop" : 1639348077376,
+          "duration" : 14948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения. Не указан путь к файлу",
+        "uid" : "bba902474d059ef6",
+        "parentUid" : "8381b9d3d511247c33c61cd1e99bde54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639348078027,
+          "stop" : 1639348079524,
+          "duration" : 1497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения вместо видео",
+        "uid" : "774699d2c4420ab5",
+        "parentUid" : "8381b9d3d511247c33c61cd1e99bde54",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639348081494,
+          "stop" : 1639348082717,
+          "duration" : 1223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8381b9d3d511247c33c61cd1e99bde54"
+    }, {
+      "name" : "3968@WIN-37OPUFNO3M0.main(1)",
+      "children" : [ {
+        "name" : "getAccountInfoTest()",
+        "uid" : "c7b57aed6c9c77d5",
+        "parentUid" : "0cad8acd9507bf386f00bda14bc4dffa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347225635,
+          "stop" : 1639347226622,
+          "duration" : 987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "getAccountInfoWithAssertionsInGivenTest()",
+        "uid" : "e252dec1fce944ad",
+        "parentUid" : "0cad8acd9507bf386f00bda14bc4dffa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347209910,
+          "stop" : 1639347225139,
+          "duration" : 15229
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "getAccountInfoWithLoggingTest()",
-        "uid" : "cbe4002277ca660f",
-        "parentUid" : "cbd055e1c6fa320494331983215720cb",
+        "uid" : "6036c161b972f252",
+        "parentUid" : "0cad8acd9507bf386f00bda14bc4dffa",
         "status" : "passed",
         "time" : {
-          "start" : 1639264252369,
-          "stop" : 1639264253397,
-          "duration" : 1028
+          "start" : 1639347226677,
+          "stop" : 1639347227718,
+          "duration" : 1041
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "getAccountInfoWithAssertionsAfterTest()",
-        "uid" : "82a7d9e09b728db3",
-        "parentUid" : "cbd055e1c6fa320494331983215720cb",
+        "uid" : "d03bb37e01fc34b5",
+        "parentUid" : "0cad8acd9507bf386f00bda14bc4dffa",
         "status" : "passed",
         "time" : {
-          "start" : 1639264253413,
-          "stop" : 1639264254166,
-          "duration" : 753
+          "start" : 1639347227735,
+          "stop" : 1639347229319,
+          "duration" : 1584
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "cbd055e1c6fa320494331983215720cb"
+      "uid" : "0cad8acd9507bf386f00bda14bc4dffa"
     }, {
-      "name" : "3340@WIN-37OPUFNO3M0.main(1)",
+      "name" : "6956@WIN-37OPUFNO3M0.main(1)",
       "children" : [ {
-        "name" : "ImageDeletionWrongMethodNegativeTest()",
-        "uid" : "9aab6e97f920323e",
-        "parentUid" : "7f1bead1a7d1d1c4b229295717f1b7dc",
+        "name" : "Загрузка изображения вместо видео",
+        "uid" : "d5d5f2812f8acf0a",
+        "parentUid" : "4cec9756557278807f7efa19fea51137",
         "status" : "passed",
         "time" : {
-          "start" : 1639264459810,
-          "stop" : 1639264463850,
-          "duration" : 4040
+          "start" : 1639347985448,
+          "stop" : 1639347986922,
+          "duration" : 1474
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения. Не указан путь к файлу",
+        "uid" : "6a4e37c3df62e9f7",
+        "parentUid" : "4cec9756557278807f7efa19fea51137",
+        "status" : "failed",
+        "time" : {
+          "start" : 1639347981267,
+          "stop" : 1639347983199,
+          "duration" : 1932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения методом delete",
+        "uid" : "85d0da803260e601",
+        "parentUid" : "4cec9756557278807f7efa19fea51137",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347983321,
+          "stop" : 1639347985422,
+          "duration" : 2101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "uploadFileURLNegativeTest()",
+        "uid" : "eb4e0002aaa2d00c",
+        "parentUid" : "4cec9756557278807f7efa19fea51137",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347964953,
+          "stop" : 1639347980772,
+          "duration" : 15819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения. Файл txt",
+        "uid" : "f4c1934709a3c3eb",
+        "parentUid" : "4cec9756557278807f7efa19fea51137",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347987015,
+          "stop" : 1639347988224,
+          "duration" : 1209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4cec9756557278807f7efa19fea51137"
+    }, {
+      "name" : "5144@WIN-37OPUFNO3M0.main(1)",
+      "children" : [ {
+        "name" : "Загрузка изображения с resources",
+        "uid" : "d09566e8c4451d3f",
+        "parentUid" : "2fcf58b1364ce7e8c48ec6658ffa1e97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347573470,
+          "stop" : 1639347578211,
+          "duration" : 4741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения, закодированного Base64",
+        "uid" : "23b933a0292ddddc",
+        "parentUid" : "2fcf58b1364ce7e8c48ec6658ffa1e97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347551275,
+          "stop" : 1639347572874,
+          "duration" : 21599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения с URL",
+        "uid" : "c5236e7da7f39ed8",
+        "parentUid" : "2fcf58b1364ce7e8c48ec6658ffa1e97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347578264,
+          "stop" : 1639347581780,
+          "duration" : 3516
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2fcf58b1364ce7e8c48ec6658ffa1e97"
+    }, {
+      "name" : "6628@WIN-37OPUFNO3M0.main(1)",
+      "children" : [ {
+        "name" : "uploadFileURLNegativeTest()",
+        "uid" : "fdf3525c9c7b5360",
+        "parentUid" : "df5a52adad50a51bdb67d071063e2adc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347669051,
+          "stop" : 1639347690616,
+          "duration" : 21565
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения методом delete",
+        "uid" : "322b52b162f1dd5b",
+        "parentUid" : "df5a52adad50a51bdb67d071063e2adc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1639347694585,
+          "stop" : 1639347696947,
+          "duration" : 2362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения вместо видео",
+        "uid" : "8fc7c86dd876db11",
+        "parentUid" : "df5a52adad50a51bdb67d071063e2adc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1639347697037,
+          "stop" : 1639347698119,
+          "duration" : 1082
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения. Файл txt",
+        "uid" : "fe31b7275503a978",
+        "parentUid" : "df5a52adad50a51bdb67d071063e2adc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639347698168,
+          "stop" : 1639347699140,
+          "duration" : 972
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Загрузка изображения. Не указан путь к файлу",
+        "uid" : "b189cb990afb91d1",
+        "parentUid" : "df5a52adad50a51bdb67d071063e2adc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1639347692151,
+          "stop" : 1639347694234,
+          "duration" : 2083
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df5a52adad50a51bdb67d071063e2adc"
+    }, {
+      "name" : "384@WIN-37OPUFNO3M0.main(1)",
+      "children" : [ {
+        "name" : "ImageDeletionWrongUserNameNegativeqTest()",
+        "uid" : "9d7d64c9ac152b79",
+        "parentUid" : "81cf508be36674b34d6c7e1c337f3fc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639347466440,
+          "stop" : 1639347491717,
+          "duration" : 25277
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "ImageDeletionWrongIdNegativeTest()",
-        "uid" : "e31bd9d0da95a4cb",
-        "parentUid" : "7f1bead1a7d1d1c4b229295717f1b7dc",
+        "uid" : "bcaf29a878e6a904",
+        "parentUid" : "81cf508be36674b34d6c7e1c337f3fc5",
         "status" : "passed",
         "time" : {
-          "start" : 1639264456134,
-          "stop" : 1639264459759,
-          "duration" : 3625
+          "start" : 1639347492323,
+          "stop" : 1639347497302,
+          "duration" : 4979
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "ImageDeletionWrongUserNameNegativeqTest()",
-        "uid" : "11eaeec00849049a",
-        "parentUid" : "7f1bead1a7d1d1c4b229295717f1b7dc",
+        "name" : "ImageDeletionWrongMethodNegativeTest()",
+        "uid" : "5a7ed16ab15fbdc9",
+        "parentUid" : "81cf508be36674b34d6c7e1c337f3fc5",
         "status" : "passed",
         "time" : {
-          "start" : 1639264435965,
-          "stop" : 1639264455681,
-          "duration" : 19716
+          "start" : 1639347497358,
+          "stop" : 1639347504185,
+          "duration" : 6827
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "7f1bead1a7d1d1c4b229295717f1b7dc"
+      "uid" : "81cf508be36674b34d6c7e1c337f3fc5"
     }, {
-      "name" : "4816@WIN-37OPUFNO3M0.main(1)",
+      "name" : "7368@WIN-37OPUFNO3M0.main(1)",
       "children" : [ {
-        "name" : "uploadFileURLNegativeTest()",
-        "uid" : "4a1183de95082ec1",
-        "parentUid" : "3c10ee4011c4fd27c4238c55a9c184a3",
+        "name" : "Некорректный id",
+        "uid" : "d8bea75784a34e7f",
+        "parentUid" : "9a378515e05cd47e10f41a03fd2a2956",
         "status" : "passed",
         "time" : {
-          "start" : 1639264375618,
-          "stop" : 1639264392703,
-          "duration" : 17085
+          "start" : 1639347393695,
+          "stop" : 1639347416478,
+          "duration" : 22783
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "uploadNoFileImageNegativeTest()",
-        "uid" : "cd9f29dabadb5af",
-        "parentUid" : "3c10ee4011c4fd27c4238c55a9c184a3",
+        "name" : "Некорректный url",
+        "uid" : "e8a2611c102caafb",
+        "parentUid" : "9a378515e05cd47e10f41a03fd2a2956",
         "status" : "passed",
         "time" : {
-          "start" : 1639264393131,
-          "stop" : 1639264394539,
-          "duration" : 1408
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "uploadFileImageNegativeTest()",
-        "uid" : "ebcf992cf38d8726",
-        "parentUid" : "3c10ee4011c4fd27c4238c55a9c184a3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264394586,
-          "stop" : 1639264395943,
-          "duration" : 1357
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "uploadVideoURLNegativeTest()",
-        "uid" : "e0a45af64a375400",
-        "parentUid" : "3c10ee4011c4fd27c4238c55a9c184a3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264395968,
-          "stop" : 1639264396993,
-          "duration" : 1025
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "uploadFileImageTxtNegitiveTest()",
-        "uid" : "172e0fc1059c03b0",
-        "parentUid" : "3c10ee4011c4fd27c4238c55a9c184a3",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264397011,
-          "stop" : 1639264397945,
-          "duration" : 934
+          "start" : 1639347417032,
+          "stop" : 1639347422762,
+          "duration" : 5730
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3c10ee4011c4fd27c4238c55a9c184a3"
+      "uid" : "9a378515e05cd47e10f41a03fd2a2956"
     }, {
-      "name" : "8864@WIN-37OPUFNO3M0.main(1)",
+      "name" : "10536@WIN-37OPUFNO3M0.main(1)",
       "children" : [ {
-        "name" : "uploadFileTest()",
-        "uid" : "44f80dcda5ee2524",
-        "parentUid" : "3d5d4ab33226d48e9b2684544b0d6835",
+        "name" : "Изменения title",
+        "uid" : "dbd54944d2b04fbe",
+        "parentUid" : "fa76b995e59fef7963176d0076e44c06",
         "status" : "passed",
         "time" : {
-          "start" : 1639264304349,
-          "stop" : 1639264331008,
-          "duration" : 26659
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "uploadFileImageTest()",
-        "uid" : "76b18a5513ef08e4",
-        "parentUid" : "3d5d4ab33226d48e9b2684544b0d6835",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264331443,
-          "stop" : 1639264335087,
-          "duration" : 3644
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "uploadFileURLTest()",
-        "uid" : "cf05e4da6561da55",
-        "parentUid" : "3d5d4ab33226d48e9b2684544b0d6835",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264335133,
-          "stop" : 1639264337898,
-          "duration" : 2765
+          "start" : 1639348122067,
+          "stop" : 1639348149820,
+          "duration" : 27753
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "3d5d4ab33226d48e9b2684544b0d6835"
+      "uid" : "fa76b995e59fef7963176d0076e44c06"
     }, {
-      "name" : "2960@WIN-37OPUFNO3M0.main(1)",
+      "name" : "9188@WIN-37OPUFNO3M0.main(1)",
       "children" : [ {
-        "name" : "UpdateImageInformationURLPositiveTest()",
-        "uid" : "6b10c343a6b6df49",
-        "parentUid" : "020124906493e76cc8cf49c02128fa7b",
-        "status" : "passed",
+        "name" : "Загрузка изображения. Не указан путь к файлу",
+        "uid" : "b6989cf4aec36d35",
+        "parentUid" : "c1893fa7c1d75f11d2bb13568648b083",
+        "status" : "failed",
         "time" : {
-          "start" : 1639264503376,
-          "stop" : 1639264522835,
-          "duration" : 19459
+          "start" : 1639347889268,
+          "stop" : 1639347908066,
+          "duration" : 18798
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "020124906493e76cc8cf49c02128fa7b"
+      "uid" : "c1893fa7c1d75f11d2bb13568648b083"
     }, {
-      "name" : "10416@WIN-37OPUFNO3M0.main(1)",
+      "name" : "2432@WIN-37OPUFNO3M0.main(1)",
       "children" : [ {
-        "name" : "FavoriteImageInvalidIdNegativeTest()",
-        "uid" : "937d376053065ffb",
-        "parentUid" : "74e9167b024995b9463a7586b51b8075",
+        "name" : "FavoriteImagePositiveTest()",
+        "uid" : "94ed58fe7751f5fa",
+        "parentUid" : "c7bc6461214678b359056e24c695fd04",
         "status" : "passed",
         "time" : {
-          "start" : 1639264681484,
-          "stop" : 1639264702983,
-          "duration" : 21499
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "FavoriteImageInvalidURLNegativeTest()",
-        "uid" : "a7a2b1b8df0fb4f9",
-        "parentUid" : "74e9167b024995b9463a7586b51b8075",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264703562,
-          "stop" : 1639264708274,
-          "duration" : 4712
+          "start" : 1639347286649,
+          "stop" : 1639347312863,
+          "duration" : 26214
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "74e9167b024995b9463a7586b51b8075"
-    }, {
-      "name" : "6024@WIN-37OPUFNO3M0.main(1)",
-      "children" : [ {
-        "name" : "UpdateImageInformationNegativeTest()",
-        "uid" : "50a1f9b9549b49f9",
-        "parentUid" : "6498df41143343ea35f9ce6970613008",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264579946,
-          "stop" : 1639264583480,
-          "duration" : 3534
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "UpdateImageInformationTokenInvalidNegativeTest()",
-        "uid" : "816331286fc5fd3d",
-        "parentUid" : "6498df41143343ea35f9ce6970613008",
-        "status" : "passed",
-        "time" : {
-          "start" : 1639264559815,
-          "stop" : 1639264579569,
-          "duration" : 19754
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "6498df41143343ea35f9ce6970613008"
+      "uid" : "c7bc6461214678b359056e24c695fd04"
     } ],
     "uid" : "4969b275fea2e3544e5e8b78dcd0eb13"
   } ]
